@@ -1,0 +1,47 @@
+# Auto normalize text files
+* text=auto
+
+# JavaScript / React files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# Backend / config files
+*.json text
+*.yml text
+*.yaml text
+*.env text
+*.md text
+
+# HTML & CSS
+*.html text
+*.css text
+*.scss text
+
+# Shell & batch scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Images (binary – do not modify)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
+# Documents
+*.pdf binary
+
+# Lock files (keep exact formatting)
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+
+# Minified & map files
+*.min.js binary
+*.map binary
